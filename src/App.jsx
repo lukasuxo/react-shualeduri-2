@@ -163,7 +163,7 @@ const CommentSection = () => {
                 <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-3">
                     <img
-                      src="public\suxo.jpg"
+                      src={suxoImage}
                       alt="User"
                       className="w-10 h-10 rounded-full"
                     />
@@ -292,7 +292,7 @@ const CommentSection = () => {
               style={{ width: parentId ? "642px" : "730px" }}
             >
               <img
-                src="public\suxo.jpg"
+                src={suxoImage}
                 alt="suxo"
                 className="w-8 h-8 rounded-full mt-1"
               />

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { formatDistanceToNow } from "date-fns";
+import suxoImage from "../public/suxo.jpg";
 
 const isValidDate = (date) => !isNaN(new Date(date).getTime());
 

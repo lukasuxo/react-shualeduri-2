@@ -327,7 +327,7 @@ const CommentSection = () => {
         <div className="space-y-4">{renderComments()}</div>
         <div className="w-full flex bg-white rounded-md shadow-2xl space-x-4 p-4">
           <img
-            src="public\suxo.jpg"
+            src={suxoImage}
             alt="suxo"
             className="w-13 h-10 rounded-full mt-1"
           />
